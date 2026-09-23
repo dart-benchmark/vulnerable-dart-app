@@ -1,0 +1,107 @@
+name: vulnerable_dart_app
+description: Intentionally Vulnerable Flutter/Dart Application for Security Testing
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+# Vulnerable Dart/Flutter dependencies (intentionally kept with known vulnerabilities for security testing)
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core Flutter packages
+  cupertino_icons: ^1.0.2
+
+  # HTTP/Networking (vulnerable versions)
+  http: ^0.13.0
+  dio: ^4.0.0
+  connectivity: ^3.0.6
+  web_socket_channel: ^2.1.0
+  socket_io_client: ^2.0.0
+
+  # State Management
+  provider: ^6.0.0
+  redux: ^5.0.0
+  flutter_redux: ^0.10.0
+  rxdart: ^0.27.0
+  mobx: ^2.0.0
+  flutter_mobx: ^2.0.0
+
+  # Storage/Database
+  sqflite: ^2.0.0
+  shared_preferences: ^2.0.0
+  hive: ^2.0.0
+  drift: ^2.0.0
+  sembast: ^3.1.0
+  path_provider: ^2.0.0
+
+  # JSON/Serialization
+  json_annotation: ^4.4.0
+  built_value: ^8.1.0
+
+  # Image handling
+  image_picker: ^0.8.4
+  cached_network_image: ^3.1.0
+  flutter_svg: ^1.0.0
+  image: ^3.0.2
+
+  # Authentication/Crypto
+  firebase_auth: ^3.1.0
+  google_sign_in: ^5.2.1
+  local_auth: ^1.1.6
+  crypto: ^3.0.1
+  encrypt: ^5.0.0
+
+  # UI Components
+  flutter_slidable: ^1.2.0
+  flutter_staggered_grid_view: ^0.5.1
+  carousel_slider: ^4.0.0
+
+  # Utils
+  intl: ^0.17.0
+  url_launcher: ^6.0.12
+  package_info_plus: ^1.0.6
+  device_info_plus: ^3.2.4
+  flutter_local_notifications: ^9.1.5
+
+  # Video/Audio
+  video_player: ^2.2.6
+  audioplayers: ^1.0.1
+
+  # Maps/Location
+  geolocator: ^8.0.1
+  google_maps_flutter: ^2.1.1
+  location: ^4.3.0
+
+  # Markdown/HTML
+  flutter_markdown: ^0.6.6
+  flutter_html: ^2.1.5
+  webview_flutter: ^3.0.0
+
+  # File handling
+  path: ^1.8.0
+  file_picker: ^4.2.5
+  open_file: ^3.2.1
+
+  # Analytics/Crashlytics
+  firebase_analytics: ^9.0.0
+  firebase_crashlytics: ^2.5.0
+
+  # AWS
+  amazon_cognito_identity_dart_2: ^1.1.0
+
+  # GraphQL
+  graphql_flutter: ^5.0.0
+
+  # Testing utilities
+  mockito: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.7
+  json_serializable: ^6.1.4
+  built_value_generator: ^8.1.0
+  drift_dev: ^2.0.0
